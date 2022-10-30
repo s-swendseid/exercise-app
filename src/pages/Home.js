@@ -10,9 +10,6 @@ const Home = () => {
   const [bodyPart, setBodyPart] = useState("all");
   const [exercises, setExercises] = useState([]); // add to state to later display
 
-  // console.log(exercises)
-  // console.log(exercises.name)
-
   return (
     <Box>
       <HeroBanner />

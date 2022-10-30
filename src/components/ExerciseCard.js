@@ -11,7 +11,7 @@ const ExerciseCard = ({ exercise }) => {
           sx={{
             ml: "21px",
             color: "#fff",
-            background: "#FFA9A9",
+            background: "#5580A1",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",
@@ -23,7 +23,7 @@ const ExerciseCard = ({ exercise }) => {
           sx={{
             ml: "21px",
             color: "#fff",
-            background: "#FCC757",
+            background: "#A18965",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",
@@ -34,7 +34,7 @@ const ExerciseCard = ({ exercise }) => {
       </Stack>
       <Typography
         ml="21px"
-        color="#000"
+        color="#5580A1"
         fontWeight="bold"
         sx={{ fontSize: { lg: "24px", xs: "20px" } }}
         mt="11px"

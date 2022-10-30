@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
 body {
-    font-family: 'Josefin Sans';
+  font-family: 'Signika Negative', sans-serif;
     background-color: #FFFAFB;
   }
   
@@ -23,14 +25,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FF2625;
+    color: #5580A1;
     font-size: 25px;
     border-radius: 4px;
-    position: absolute;
+    /* position: absolute; */
     bottom: -20px;
     right: 80px;
     transform: scale(1, 1);
     transition: 0.3s all ease-in-out;
+  }
+
+  .arrow {
+    margin-bottom: 1rem;
   }
   
   .right-arrow {
@@ -67,7 +73,7 @@ body {
     width: 400px;
     height: 445px;
     background: #fff;
-    border-top: 4px solid #FF2625;
+    border-top: 4px solid #5580A1;
     border-bottom-left-radius: 20px;
     text-decoration: none;
     display: flex;
