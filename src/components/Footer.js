@@ -8,7 +8,7 @@ const Footer = () => {
     <Box mt="80px" bgcolor="#6995b8">
       <Stack gap="40px" sx={{ alignItems: 'center' }} flexWrap="wrap" px="40px" pt="24px">
         <img src={Logo} alt="logo" style={{ width: '60px', height: '60px' }}/>
-        <Typography variant="h5" pb="40px">Designed by Sarah Swendseid</Typography>
+        <Typography variant="h5" pb="40px">Developed by Sarah Swendseid</Typography>
       </Stack>
     </Box>
   )
